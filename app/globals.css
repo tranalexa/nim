@@ -19,3 +19,7 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+.photo-transition {
+  transition: opacity 0.5s ease-in-out;
+}
