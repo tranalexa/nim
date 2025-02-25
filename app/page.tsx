@@ -18,6 +18,7 @@ import {
   BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
+  MUSIC,
 } from './data'
 import { InfiniteSlider } from '@/components/ui/infinite-slider'
 
@@ -136,37 +137,16 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <InfiniteSlider durationOnHover={75} gap={24}>
-        <img
-          src='/wolf-alice.jpeg'
-          alt='Don’t Delete The Kisses - Wolf Alice'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
-        <img
-          src='/between-friends.jpeg'
-          alt='we just need some time together - BETWEEN FRIENDS'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
-        <img
-          src='/palo-alto.jpeg'
-          alt='Palo Alto Soundtrack'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
-        <img
-          src='/san-frandisco.jpg'
-          alt='San Frandisco - Dom Dolla'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
-        <img
-          src='/places-to-be.jpeg'
-          alt='places to be - Fred again..'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
-        <img
-          src='/champagne-coast.jpeg'
-          alt='Champagne Coast - Blood Orange'
-          className='aspect-square w-[120px] rounded-[4px]'
-        />
+      <InfiniteSlider durationOnHover={75} gap={24}>
+        {MUSIC.map((image, index) => (
+          <a key={index} href={image.url} target="_blank">
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="aspect-square w-[120px] rounded-[4px]"
+            />
+          </a>
+        ))}
       </InfiniteSlider>
     </motion.section>
 

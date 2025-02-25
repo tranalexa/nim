@@ -109,3 +109,36 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 
 export const EMAIL = 'alexatran@stanford.edu'
+
+export const MUSIC = [
+  {
+    url: 'https://open.spotify.com/track/3K94Fd5ZQkPCW8wV6oyk22?si=5f2455fdf9574be2',
+    src: '/wolf-alice.jpeg',
+    alt: "Don’t Delete The Kisses - Wolf Alice",
+  },
+  {
+    url: 'https://open.spotify.com/album/3IIJTTfYV4GU9ST4GbeGhg?si=Ho6qoSSnSR2z0z5sMPJdCQ',
+    src: '/between-friends.jpeg',
+    alt: 'we just need some time together - BETWEEN FRIENDS',
+  },
+  {
+    url: 'https://open.spotify.com/track/0GKRhiIVPIXmsM5d7KcjcN?si=39c29f60c6a84126',
+    src: '/palo-alto.jpeg',
+    alt: 'Palo Alto Soundtrack',
+  },
+  {
+    url: 'https://open.spotify.com/track/3T00mhdOYUuM5yiuPs3xhs?si=2a0e786ad8b540a5',
+    src: '/san-frandisco.jpg',
+    alt: 'San Frandisco - Dom Dolla',
+  },
+  {
+    url: 'https://open.spotify.com/track/561pBFcFL2Pwb9HPO9tU8J?si=ff260c253cc9496d',
+    src: '/places-to-be.jpeg',
+    alt: 'places to be - Fred again..',
+  },
+  {
+    url: 'https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0?si=cbacbe29101f4404',
+    src: '/champagne-coast.jpeg',
+    alt: 'Champagne Coast - Blood Orange',
+  },
+];
