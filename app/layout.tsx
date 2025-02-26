@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Alexa Tran',
+  title: 'Alexa',
 }
 
 const geist = Geist({
